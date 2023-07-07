@@ -19,7 +19,7 @@ const NavBar = () => {
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <a
-            href="./files/2023 resume v2.pdf"
+            href="./files/2023 resume v3.pdf"
             className="resume"
             target="_blank"
             rel="noopener noreferrer"
