@@ -12,8 +12,7 @@ const NavBar = () => {
           to="/"
           className={({ isActive }) => (isActive ? "active" : "inactive")}
         >
-          {" "}
-          Home{" "}
+          Home
         </NavLink>
         <NavLink to="/projects"> Projects </NavLink>
         <NavLink to="/contact"> Contact </NavLink>
@@ -24,8 +23,7 @@ const NavBar = () => {
           rel="noopener noreferrer"
           aria-label="link to resume"
         >
-          {" "}
-          Resume{" "}
+          Resume
         </a>
       </div>
     </nav>

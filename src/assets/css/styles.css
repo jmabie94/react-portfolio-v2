@@ -1,0 +1,79 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em;
+}
+
+.home-header {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.contact-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation .logo {
+    height: 100px;
+    padding: 0;
+}
+
+.nav-links, .contacts {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.nav-links a {
+    font-weight: bold;
+    margin: 0 12px;
+    padding: 0 0 4px 0;
+}
+
+.contacts a {
+    font-weight: bold;
+    margin: 0 12px;
+    padding: 0 0 4px 0;
+}
+
+.face {
+    vertical-align: middle;
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+.face img {
+    height: 100px;
+    float: left;
+}
+
+.second-face {
+    vertical-align: middle;
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+.second-face img {
+    height: 100px;
+    float: right;
+}
+
+.footer {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px 24px 12px;
+}
+
+.copyright {
+    font-size: 10px;
+    margin: 10px;
+}
