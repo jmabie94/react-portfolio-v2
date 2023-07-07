@@ -84,8 +84,42 @@ p {
 }
 
 .second-face img {
-  height: 100px;
+  height: 150px;
   float: right;
+}
+
+.project-header {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.project-grid {
+    margin-top: 12px;
+}
+
+.project-photo {
+    height: 250px;
+    object-fit: contain;
+}
+
+.card-group {
+    margin-bottom: 2rem;
+    column-gap: 2rem;
+}
+
+.card {
+    border: thin solid;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card .btn {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer {
@@ -126,5 +160,10 @@ p {
 
   .second-face {
     margin-top: 12px;
+  }
+
+  .card .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }

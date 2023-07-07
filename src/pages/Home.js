@@ -14,7 +14,7 @@ const Home = () => {
       <Container>
         <div className="home-content">
           <Row className="home-intro">
-            <Col md={{ span: 2 }}>
+            <Col md={{ span: 2 }} className="my-auto">
               <div className="face">
                 <img src={face2} alt="Jack Mabie Portrait by Dalton Mannerud" />
               </div>
@@ -34,7 +34,7 @@ const Home = () => {
             </Col>
           </Row>
           <Row className="home-info">
-            <Col md={{ span: 8 }}>
+            <Col md={{ span: 9 }}>
               <div className="home-text">
                 <h4>My name is Jack Mabie</h4>
                 <p>
@@ -55,7 +55,7 @@ const Home = () => {
                 </p>
               </div>
             </Col>
-            <Col md={{ span: 2, offset: 2 }}>
+            <Col md={{ span: 3 }} className="my-auto">
               <div className="second-face">
                 <img src={face} alt="Jack Mabie Portrait by Nicklaus Gray" />
               </div>
