@@ -34,12 +34,12 @@ const Home = () => {
         </div>
         <div className="home-content">
           <Row className="home-intro">
-            <Col md={{ span: 2, offset: 2 }}>
+            <Col md={{ span: 2 }}>
               <div className="face">
                 <img src={face2} alt="Jack Mabie Portrait by Dalton Mannerud" />
               </div>
             </Col>
-            <Col md={{ span: 4, offset: 2 }}>
+            <Col md={{ span: 8 }}>
               <div className="home-blurb">
                 <h4>Welcome to my React Portfolio!</h4>
                 <p>
@@ -54,7 +54,7 @@ const Home = () => {
             </Col>
           </Row>
           <Row className="home-info">
-            <Col md={{ span: 4, offset: 2 }}>
+            <Col md={{ span: 8 }}>
               <div className="home-text">
                 <h4>My name is Jack Mabie</h4>
                 <p>
