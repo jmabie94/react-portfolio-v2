@@ -12,26 +12,6 @@ const Home = () => {
   return (
     <>
       <Container>
-        <div className="home-header">
-          <Row>
-            <Col xs={12}>
-              <h1 className="page-title">Full-Stack Web Developer</h1>
-            </Col>
-          </Row>
-          <Row>
-            <div className="contact-bar">
-              <Col xs={4}>
-                <div className="contact-phone"> +1 (626) 864-0110 </div>
-              </Col>
-              <Col xs={4}>
-                <div className="contact-email"> johnmabie94@gmail.com </div>
-              </Col>
-              <Col xs={4}>
-                <div className="contact-city"> Tulsa, Oklahoma </div>
-              </Col>
-            </div>
-          </Row>
-        </div>
         <div className="home-content">
           <Row className="home-intro">
             <Col md={{ span: 2 }}>
@@ -70,8 +50,8 @@ const Home = () => {
                 </p>
                 <p>
                   From no prior experience coding, I can now say that this site
-                  has been built entirely with the React JavaScript Library
-                  thanks to what I learned in the bootcamp!
+                  has been built entirely with the React JavaScript library
+                  thanks to the bootcamp!
                 </p>
               </div>
             </Col>

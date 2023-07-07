@@ -8,8 +8,7 @@ const Contacts = () => {
         rel="noopener noreferrer"
         aria-label="link to GitHub"
       >
-        {" "}
-        GitHub{" "}
+        GitHub
       </a>
       <a
         href="https://www.linkedin.com/in/john-mabie-059b74135/"
@@ -18,8 +17,7 @@ const Contacts = () => {
         rel="noopener noreferrer"
         aria-label="link to LinkedIn"
       >
-        {" "}
-        LinkedIn{" "}
+        LinkedIn
       </a>
       <a
         href="https://solo.to/thethoughthere"
@@ -28,8 +26,7 @@ const Contacts = () => {
         rel="noopener noreferrer"
         aria-label="link to music and social media profiles"
       >
-        {" "}
-        Music & Social Media{" "}
+        Music & Socials
       </a>
     </div>
   );
