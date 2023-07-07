@@ -72,7 +72,7 @@ const AllProjects = () => {
                 </Button>
               </Card.Footer>
             </Card>
-            <Card>
+            <Card className="card2">
               <Card.Img
                 variant="top"
                 className="project-photo"

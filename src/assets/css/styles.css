@@ -84,8 +84,9 @@ p {
 }
 
 .second-face img {
-  height: 150px;
+  height: 200px;
   float: right;
+  mix-blend-mode: multiply;
 }
 
 .project-header {
@@ -102,13 +103,10 @@ p {
   object-fit: contain;
 }
 
+/* for some reason I cannot overwrite the "flush" styling inherit to the react-bootstrap set up, so adding a column gap permanently removes the left borders from all cards to the right of the first in each group */
 .card-group {
   margin-bottom: 2rem;
-  column-gap: 2rem;
-}
-
-.card {
-  border: thin solid;
+  /* column-gap: 2rem; */
 }
 
 .card-footer {
