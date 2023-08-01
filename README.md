@@ -115,14 +115,8 @@ CAREER COACH NOTES - WORKING LIST
 
 5.  For Project 2 / Disc Exchange fork the repository and rename so that it's not just /Project-2 and can actually show /DiscExchange or something along those lines - also add descriptions! (Probably best to do this as well for LazyLoaderMealGenerator) - also remove "Group 7" from Game Room App
 
-6.  Do a proper README for the new React Portfolio
-
 7.  LazyLoader README could use styling adjustment to be more consistent with the other Projects
 
 8.  Use LinkedIn headline and primary languages in the GitHub bio section so it's not just name and @. Corey sent this: "Full Stack Developer | Javascript | SQL | ReactJS"
-
-9.  Add websites to Linkedin Contact section (Portfolio!) Also, consider simplifying first line on the LinkedIn bio so that it focuses in on the Web Dev stuff.
-
-10. Add Bootcamp Certificate as Media in the FEATURED section of LinkedIn, and add all of the coding projects in the FEATURED section as links, highlighting them on the page earlier. Add some additional coding stuff to the SKILLS section including APIs and the back-end stuff that was omitted, then reorder to highlight the top skills I have.
 
 11. Go through the LinkedIn networks of companies, filter for closest regions, filter for software engineers and take a look through (and potentially reach out to) profiles to see what it takes to work at such company or what I could do to get qualified for better consideration. -->
