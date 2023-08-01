@@ -1,7 +1,29 @@
+.backcolor {
+  color: #F5F5F5;
+}
+
+.textcolor {
+  color: #000000;
+}
+
+.lightaccent {
+  color: #14A44D;
+}
+
+.darkaccent {
+  color: #1D4F03;
+}
+
+.contrastcolor {
+  color: #FE0000;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #F5F5F5;
+  min-height: max-content;
 }
 
 .navigation {
@@ -25,8 +47,69 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.page-title {
+  color: #000000;
+}
+
+.contact-phone {
+  display: inline-block;
+  background-color: #14A44D;
+  border-radius: 10px;
+  color: #F5F5F5;
+}
+
+/* .contact-email {
+  display: inline-block;
+  background-color: #1D4F03;
+  border-radius: 10px;
+  color: #14A44D;
+} */
+
+.contact-email a:link {
+  color: #14A44D;
+}
+
+.contact-email a:visited {
+  color: #1D4F03;
+}
+
+.contact-email a:hover {
+  color: #FE0000;
+}
+
+.contact-email a:active {
+  color: #000000;
+}
+
+.contact-city {
+  display: inline-block;
+  background-color: #14A44D;
+  border-radius: 10px;
+  color: #F5F5F5;
+}
+
 .home-blurb {
   text-align: center;
+}
+
+.home-blurb span {
+  color: #FE0000;
+}
+
+.home-blurb p a:link {
+  color: #14A44D;
+}
+
+.home-blurb p a:visited {
+  color: #1D4F03;
+}
+
+.home-blurb p a:hover {
+  color: #FE0000;
+}
+
+.home-blurb p a:active {
+  color: #000000;
 }
 
 .home-intro {
@@ -35,6 +118,26 @@ p {
 
 .home-text p {
   font-size: 14px;
+}
+
+.home-text h4 span {
+  color: #FE0000;
+}
+
+.home-text p a:link {
+  color: #14A44D;
+}
+
+.home-text p a:visited {
+  color: #1D4F03;
+}
+
+.home-text p a:hover {
+  color: #FE0000;
+}
+
+.home-text p a:active {
+  color: #000000;
 }
 
 .contact-bar {
@@ -64,10 +167,42 @@ p {
   padding: 0 0 4px 0;
 }
 
+.nav-links a:link {
+  color: #14A44D;
+}
+
+.nav-links a:visited {
+  color: #1D4F03;
+}
+
+.nav-links a:hover {
+  color: #FE0000;
+}
+
+.nav-links a:active {
+  color: #000000;
+}
+
 .contacts a {
   font-weight: bold;
   margin: 0 12px;
   padding: 0 0 4px 0;
+}
+
+.contacts a:link {
+  color: #14A44D;
+}
+
+.contacts a:visited {
+  color: #1D4F03;
+}
+
+.contacts a:hover {
+  color: #FE0000;
+}
+
+.contacts a:active {
+  color: #000000;
 }
 
 .face {
@@ -103,6 +238,15 @@ p {
   object-fit: contain;
 }
 
+/* input[type=checkbox]{
+  accent-color: #14A44D;
+} */
+
+input[type=checkbox]:checked{
+  background-color: #14A44D !important;
+  border-color: #14A44D !important;
+}
+
 /* for some reason I cannot overwrite the "flush" styling inherit to the react-bootstrap set up, so adding a column gap permanently removes the left borders from all cards to the right of the first in each group */
 .card-group {
   margin-bottom: 2rem;
@@ -121,6 +265,8 @@ p {
 }
 
 .footer {
+  /* expanding so that the footer covers the full bottom of the screen */
+  min-height: calc(100vh - 50px);
   font-size: 16px;
   text-align: center;
   text-transform: uppercase;

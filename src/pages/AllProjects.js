@@ -1,4 +1,4 @@
-import SingleProject from "./SingleProject";
+// import SingleProject from "./SingleProject";
 // import { projectData } from "../data/db.js";
 import Container from "react-bootstrap/Container";
 // import viewIcon from "../assets/media/223930.png";
@@ -16,8 +16,8 @@ import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 // import ListGroup from 'react-bootstrap/ListGroup';
 import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
 
 // cannot get the mapped version of this to work correctly! :'(
 /* const AllProjects = () => {
@@ -59,13 +59,13 @@ const AllProjects = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="success"
                   href="https://whispering-beach-93510.herokuapp.com/"
                 >
                   <Eye /> View
                 </Button>
                 <Button
-                  variant="secondary"
+                  variant="dark"
                   href="https://github.com/jmabie94/PWA-React-Game-App"
                 >
                   <Github /> GitHub
@@ -95,13 +95,13 @@ const AllProjects = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="success"
                   href="https://serene-forest-09402.herokuapp.com/"
                 >
                   <Eye /> View
                 </Button>
                 <Button
-                  variant="secondary"
+                  variant="dark"
                   href="https://github.com/ikaera/Project-2"
                 >
                   <Github /> GitHub
@@ -131,13 +131,13 @@ const AllProjects = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="success"
                   href="https://saf1ya-c0d3z.github.io/LazyLoaderMealGenerator/"
                 >
                   <Eye /> View
                 </Button>
                 <Button
-                  variant="secondary"
+                  variant="dark"
                   href="https://github.com/saf1ya-c0d3z/LazyLoaderMealGenerator"
                 >
                   <Github /> GitHub
@@ -161,14 +161,14 @@ const AllProjects = () => {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <Button
-                  variant="primary"
+                {/* <Button
+                  variant="success"
                   href="https://github.com/jmabie94/4-20-23-NoSQL-Social-Network-API"
                 >
                   <Eye /> View
-                </Button>
+                </Button> */}
                 <Button
-                  variant="secondary"
+                  variant="dark"
                   href="https://github.com/jmabie94/4-20-23-NoSQL-Social-Network-API"
                 >
                   <Github /> GitHub
@@ -194,14 +194,14 @@ const AllProjects = () => {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <Button
-                  variant="primary"
+                {/* <Button
+                  variant="success"
                   href="https://github.com/jmabie94/3-9-23-Employee-Tracker"
                 >
                   <Eye /> View
-                </Button>
+                </Button> */}
                 <Button
-                  variant="secondary"
+                  variant="dark"
                   href="https://github.com/jmabie94/3-9-23-Employee-Tracker"
                 >
                   <Github /> GitHub
@@ -226,13 +226,13 @@ const AllProjects = () => {
               </Card.Body>
               <Card.Footer>
                 <Button
-                  variant="primary"
+                  variant="success"
                   href="https://fast-lake-90185.herokuapp.com/"
                 >
                   <Eye /> View
                 </Button>
                 <Button
-                  variant="secondary"
+                  variant="dark"
                   href="https://github.com/jmabie94/4-27-23-PWA-Text-Editor"
                 >
                   <Github /> GitHub
