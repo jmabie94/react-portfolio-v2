@@ -17,10 +17,18 @@ const Header = () => {
           <Row>
             <div className="contact-bar">
               <Col xs={4}>
-                <div className="contact-phone">&nbsp;+1 (626) 864-0110&nbsp;</div>
+                <div className="contact-phone">
+                  &nbsp;+1 (626) 864-0110&nbsp;
+                </div>
               </Col>
               <Col xs={4}>
-                <div className="contact-email">&nbsp;<a href="mailto: johnmabie94@gmail.com">johnmabie94@gmail.com</a>&nbsp;</div>
+                <div className="contact-email">
+                  &nbsp;
+                  <a href="mailto: johnmabie94@gmail.com">
+                    johnmabie94@gmail.com
+                  </a>
+                  &nbsp;
+                </div>
               </Col>
               <Col xs={4}>
                 <div className="contact-city">&nbsp;Tulsa, Oklahoma&nbsp;</div>

@@ -16,8 +16,5 @@
     "main.a06aec67.css.map": "/react-portfolio-v2/static/css/main.a06aec67.css.map",
     "main.897c2699.js.map": "/react-portfolio-v2/static/js/main.897c2699.js.map"
   },
-  "entrypoints": [
-    "static/css/main.a06aec67.css",
-    "static/js/main.897c2699.js"
-  ]
+  "entrypoints": ["static/css/main.a06aec67.css", "static/js/main.897c2699.js"]
 }

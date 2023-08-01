@@ -3,9 +3,11 @@
 ## Description
 
 #### Using the React framework and the React-Bootstrap style library to recreate my React Portfolio from scratch with a functional Projects page and an interactive Contacts page.
+
 ---
 
 ## Contents
+
 - [User Story](#user-story)
 - [Installation](#installation)
 - [Media](#media)
@@ -13,13 +15,16 @@
 - [Technology Used](#technology-used)
 - [Notes](#notes)
 - [License](#license)
-​
+  ​
+
 ### User Story
+
 ```md
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
+
 ## Installation:
 
 Utilizing the Application is simple!
@@ -27,11 +32,11 @@ Utilizing the Application is simple!
 Option A - Use the GitHub Pages Deployment directly by way of https://jmabie94.github.io/react-portfolio-v2/.
 
 Option B - Clone the repo:
-    
+
     git clone git@github.com:jmabie94/react-portfolio-v2.git
 
 Next, open an integrated terminal in your cloned folder and do the following:
-    
+
     run "npm init -y"
     run "npm i"
 
@@ -39,24 +44,31 @@ After Node Packages have installed, open run the application:
 
     run "npm run start"
 
-
 Finally, the application should open automatically in your browser!
 ​
+
 ## Media
 
 ### v2 Styling - Home Page:
+
 ![v2 Home Page](public/media/v2-portfolio-home.png)
 
 ### v2 Styling - Projects Page:
+
 ![v2 Projects Page](public/media/v2-portfolio-projects.png)
 
 ### v2 Styling - Contact Page:
+
 ![v2 Contact Page](public/media/v2-portfolio-contact.png)
 ​
+
 ## Credits
+
 - Jack Mabie (https://github.com/jmabie94)
-​
+  ​
+
 ## Technology Used
+
     - Javascript
     - React
     - React-Bootstrap
@@ -67,9 +79,11 @@ Finally, the application should open automatically in your browser!
     - Tutoring
 
 ## Notes
+
 This is a complete overhaul of my initial attempt at my React Portfolio, styling has been consistently the most difficult part of my coding experience (hence my intention to focus on back-end development), so I apologize for the lack of flashiness!
-    
+
 ## License
+
 ​
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ​
@@ -91,9 +105,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ​
+
 ---
 
-<!-- 
+<!--
 CAREER COACH NOTES - WORKING LIST
 
 4.  Maybe add blog?

@@ -1,5 +1,5 @@
 .backcolor {
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .textcolor {
@@ -7,22 +7,22 @@
 }
 
 .lightaccent {
-  color: #14A44D;
+  color: #14a44d;
 }
 
 .darkaccent {
-  color: #1D4F03;
+  color: #1d4f03;
 }
 
 .contrastcolor {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .App {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   min-height: max-content;
 }
 
@@ -53,9 +53,9 @@ p {
 
 .contact-phone {
   display: inline-block;
-  background-color: #14A44D;
+  background-color: #14a44d;
   border-radius: 10px;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 /* .contact-email {
@@ -66,15 +66,15 @@ p {
 } */
 
 .contact-email a:link {
-  color: #14A44D;
+  color: #14a44d;
 }
 
 .contact-email a:visited {
-  color: #1D4F03;
+  color: #1d4f03;
 }
 
 .contact-email a:hover {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .contact-email a:active {
@@ -83,9 +83,9 @@ p {
 
 .contact-city {
   display: inline-block;
-  background-color: #14A44D;
+  background-color: #14a44d;
   border-radius: 10px;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .home-blurb {
@@ -93,19 +93,19 @@ p {
 }
 
 .home-blurb span {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .home-blurb p a:link {
-  color: #14A44D;
+  color: #14a44d;
 }
 
 .home-blurb p a:visited {
-  color: #1D4F03;
+  color: #1d4f03;
 }
 
 .home-blurb p a:hover {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .home-blurb p a:active {
@@ -121,19 +121,19 @@ p {
 }
 
 .home-text h4 span {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .home-text p a:link {
-  color: #14A44D;
+  color: #14a44d;
 }
 
 .home-text p a:visited {
-  color: #1D4F03;
+  color: #1d4f03;
 }
 
 .home-text p a:hover {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .home-text p a:active {
@@ -168,15 +168,15 @@ p {
 }
 
 .nav-links a:link {
-  color: #14A44D;
+  color: #14a44d;
 }
 
 .nav-links a:visited {
-  color: #1D4F03;
+  color: #1d4f03;
 }
 
 .nav-links a:hover {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .nav-links a:active {
@@ -190,15 +190,15 @@ p {
 }
 
 .contacts a:link {
-  color: #14A44D;
+  color: #14a44d;
 }
 
 .contacts a:visited {
-  color: #1D4F03;
+  color: #1d4f03;
 }
 
 .contacts a:hover {
-  color: #FE0000;
+  color: #fe0000;
 }
 
 .contacts a:active {
@@ -242,9 +242,9 @@ p {
   accent-color: #14A44D;
 } */
 
-input[type=checkbox]:checked{
-  background-color: #14A44D !important;
-  border-color: #14A44D !important;
+input[type="checkbox"]:checked {
+  background-color: #14a44d !important;
+  border-color: #14a44d !important;
 }
 
 /* for some reason I cannot overwrite the "flush" styling inherit to the react-bootstrap set up, so adding a column gap permanently removes the left borders from all cards to the right of the first in each group */
