@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-v2/static/css/main.a06aec67.css",
-    "main.js": "/react-portfolio-v2/static/js/main.897c2699.js",
+    "main.css": "/react-portfolio-v2/static/css/main.677fb165.css",
+    "main.js": "/react-portfolio-v2/static/js/main.7461746f.js",
     "static/media/whosethot.png": "/react-portfolio-v2/static/media/whosethot.b3f62a4c53f8e237abed.png",
     "static/media/results-page.png": "/react-portfolio-v2/static/media/results-page.15e51b1cece5ca0b9693.png",
     "static/media/screencapture-whispering-beach-93510-herokuapp-games-2023-05-25-22_48_25.png": "/react-portfolio-v2/static/media/screencapture-whispering-beach-93510-herokuapp-games-2023-05-25-22_48_25.fc9dabe53792f9b9a33e.png",
@@ -11,13 +11,12 @@
     "static/media/employeetracker1.PNG": "/react-portfolio-v2/static/media/employeetracker1.cfbbfbce6b5c22e0d886.PNG",
     "static/media/106616130_276750643430394__n.jpg": "/react-portfolio-v2/static/media/106616130_276750643430394_6992149895293952372_n.4a5f731b3ba9273631f1.jpg",
     "static/media/jate-with-test-text.png": "/react-portfolio-v2/static/media/jate-with-test-text.5e4ce56fb40895a9e8d9.png",
-    "static/media/223930.png": "/react-portfolio-v2/static/media/223930.67e0505f444c5f91e693.png",
     "index.html": "/react-portfolio-v2/index.html",
-    "main.a06aec67.css.map": "/react-portfolio-v2/static/css/main.a06aec67.css.map",
-    "main.897c2699.js.map": "/react-portfolio-v2/static/js/main.897c2699.js.map"
+    "main.677fb165.css.map": "/react-portfolio-v2/static/css/main.677fb165.css.map",
+    "main.7461746f.js.map": "/react-portfolio-v2/static/js/main.7461746f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a06aec67.css",
-    "static/js/main.897c2699.js"
+    "static/css/main.677fb165.css",
+    "static/js/main.7461746f.js"
   ]
 }
